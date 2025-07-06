@@ -1,16 +1,14 @@
+import * as React from 'react'
 import {
   FaEnvelopeOpenText,
   FaGithub,
   FaInstagram,
   FaLinkedin,
   FaMastodon,
+  FaPercentage,
   FaTwitter,
-  FaYoutube,
-  FaPercentage
-} from 'react-icons/fa'
+  FaYoutube} from 'react-icons/fa'
 import { IoMoonSharp, IoSunnyOutline } from 'react-icons/io5'
-
-import * as React from 'react'
 
 import * as config from '@/lib/config'
 import { useDarkMode } from '@/lib/use-dark-mode'
@@ -77,18 +75,6 @@ export function FooterImpl() {
             rel='me'
           >
             <FaMastodon />
-          </a>
-        )}
-
-        {config.zhihu && (
-          <a
-            className={styles.zhihu}
-            href={`https://zhihu.com/people/${config.zhihu}`}
-            title={`Zhihu @${config.zhihu}`}
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            <FaZhihu />
           </a>
         )}
 
