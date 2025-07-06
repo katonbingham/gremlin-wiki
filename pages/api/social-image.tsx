@@ -51,7 +51,7 @@ export default async function OGImage(
           backgroundColor: '#1F2027',
           alignItems: 'center',
           justifyContent: 'center',
-          color: 'black'
+          color: '16px solid rgba(255, 255, 255, 0.3)'
         }}
       >
         {pageInfo.image && (
@@ -135,8 +135,6 @@ export default async function OGImage(
               height: 128,
               width: 128,
               display: 'flex',
-              borderRadius: '50%',
-              border: '4px solid #fff',
               zIndex: '5'
             }}
           >
