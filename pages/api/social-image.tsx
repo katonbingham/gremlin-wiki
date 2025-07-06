@@ -98,7 +98,7 @@ export default async function OGImage(
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'space-around',
-              backgroundColor: '#fff',
+              backgroundColor: '16px solid rgba(255, 255, 255, 0.3)',
               padding: 24,
               alignItems: 'center',
               textAlign: 'center'
