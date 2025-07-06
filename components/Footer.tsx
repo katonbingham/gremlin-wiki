@@ -1,12 +1,15 @@
-import { FaEnvelopeOpenText } from '@react-icons/all-files/fa/FaEnvelopeOpenText'
-import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
-import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
-import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
-import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
-import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
-import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
-import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
-import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
+import { FaEnvelopeOpenText } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
+import { FaLinkedin } from 'react-icons/fa'
+import { FaMastodon } from 'react-icons/fa'
+import { FaTwitter } from 'react-icons/fa'
+import { FaYoutube } from 'react-icons/fa'
+import { FaZhihu } from 'react-icons/fa'
+import { IoMoonSharp } from 'react-icons/io5'
+import { IoSunnyOutline } from 'react-icons/io5'
+import { FaPercentage } from 'react-icons/fa'
+
 import * as React from 'react'
 
 import * as config from '@/lib/config'
@@ -122,6 +125,30 @@ export function FooterImpl() {
             rel='noopener noreferrer'
           >
             <FaEnvelopeOpenText />
+          </a>
+        )}
+
+        {config.instagram && (
+          <a
+            className={styles.instagram}
+            href={`https://www.instagram.com/${config.instagram}`}
+            title={`instagram ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaInstagram />
+          </a>
+        )}
+
+        {config.uspsa && (
+          <a
+            className={styles.uspsa}
+            href={`https://uspsa.org/classification/${config.uspsa}`}
+            title={`uspsa ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaPercentage />
           </a>
         )}
 

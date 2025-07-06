@@ -111,6 +111,23 @@
   color: #ff0000;
 }
 
+.instagram:hover {
+  color: #c13584;
+
+  /* TODO replace the hover color with the instagram gradient */
+  /* background: -moz-linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  background: -webkit-linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.uspsa:hover{
+  color:#2771e9
+}
+
 .linkedin:hover {
   color: #0077b5;
 }

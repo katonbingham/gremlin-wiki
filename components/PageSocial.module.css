@@ -100,6 +100,22 @@
   border-color: #c9510c;
 }
 
+.uspsa .actionBgPane {
+  background: #2771e9;
+}
+.uspsa:hover {
+  /* #c50303 */
+  border-color: #2771e9;
+}
+
+.instagram .actionBgPane {
+  background: #db003e;
+}
+.instagram:hover {
+  border-color: #db003e;
+}
+
+
 .youtube .actionBgPane {
   background: #ff0000;
 }
