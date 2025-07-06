@@ -1,14 +1,14 @@
-import { FaEnvelopeOpenText } from 'react-icons/fa'
-import { FaGithub } from 'react-icons/fa'
-import { FaInstagram } from 'react-icons/fa'
-import { FaLinkedin } from 'react-icons/fa'
-import { FaMastodon } from 'react-icons/fa'
-import { FaTwitter } from 'react-icons/fa'
-import { FaYoutube } from 'react-icons/fa'
-import { FaZhihu } from 'react-icons/fa'
-import { IoMoonSharp } from 'react-icons/io5'
-import { IoSunnyOutline } from 'react-icons/io5'
-import { FaPercentage } from 'react-icons/fa'
+import {
+  FaEnvelopeOpenText,
+  FaGithub,
+  FaInstagram,
+  FaLinkedin,
+  FaMastodon,
+  FaTwitter,
+  FaYoutube,
+  FaPercentage
+} from 'react-icons/fa'
+import { IoMoonSharp, IoSunnyOutline } from 'react-icons/io5'
 
 import * as React from 'react'
 
