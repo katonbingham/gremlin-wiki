@@ -7,7 +7,8 @@ import {
   FaMastodon,
   FaPercentage,
   FaTwitter,
-  FaYoutube} from 'react-icons/fa'
+  FaYoutube
+} from 'react-icons/fa'
 import { IoMoonSharp, IoSunnyOutline } from 'react-icons/io5'
 
 import * as config from '@/lib/config'
